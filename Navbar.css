@@ -1,0 +1,39 @@
+nav {
+  background-color: #a9bef8;
+  color: white;
+  padding: 12px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav h2 {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+/* Add spacing between nav links */
+.nav-links a {
+  color: white;
+  margin: 0 20px; /* ⬅️ Increased from 10px to 20px for better spacing */
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+.logout-btn {
+  background-color: #151313;
+  border: none;
+  padding: 6px 12px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 20px; /* adds space before logout button */
+}
+
+.logout-btn:hover {
+  background-color: #b91c1c;
+}

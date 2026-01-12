@@ -1,0 +1,37 @@
+.cart-container {
+  background-color: #f5f5f5;
+  min-height: 80vh;
+  font-family: "Poppins", sans-serif;
+}
+
+.cart-content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  margin-bottom: 15px;
+}
+
+.cart-item h2 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.cart-item p {
+  margin: 3px 0;
+}
+
+.cart-summary {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}

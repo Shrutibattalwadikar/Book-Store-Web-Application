@@ -1,0 +1,69 @@
+/* Full background section */
+.home-container {
+  position: relative; /* needed for video overlay */
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  overflow: hidden; /* ensures video stays within container */
+}
+
+/* Background video */
+.background-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1; /* ensures video is behind content */
+}
+
+/* Text styling */
+.home-content {
+  background: rgba(0, 0, 0, 0.6); /* dark overlay box for contrast */
+  padding: 40px 60px;
+  border-radius: 15px;
+  z-index: 1;
+}
+
+.home-content h1 {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.home-content h2 {
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  color: #ffe066;
+}
+
+.home-content p {
+  font-size: 18px;
+  margin-bottom: 30px;
+  max-width: 600px;
+  line-height: 1.6;
+}
+
+/* Shop Now button */
+.shop-btn {
+  background-color: #facc15; /* golden color */
+  color: #1f2937;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.shop-btn:hover {
+  background-color: #fbbf24;
+  transform: scale(1.05);
+}
